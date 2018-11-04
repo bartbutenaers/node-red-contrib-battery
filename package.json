@@ -1,0 +1,25 @@
+{
+    "name"         : "node-red-contrib-battery",
+    "version"      : "1.0.0",
+    "description"  : "A Node Red node to get information about the battery",
+    "dependencies": {
+    },
+    "author": {
+        "name": "Bart Butenaers"
+    },
+    "license": "Apache-2.0",
+    "keywords": [ "node-red", "battery" ],
+    "bugs": {
+        "url": "https://github.com/bartbutenaers/node-red-contrib-battery/issues"
+    },
+    "homepage": "https://github.com/bartbutenaers/node-red-contrib-battery",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bartbutenaers/node-red-contrib-battery.git"
+    },
+    "node-red"     : {
+        "nodes": {
+            "battery": "battery.js"
+        }
+    }
+}
