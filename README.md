@@ -8,6 +8,9 @@ npm install node-red-contrib-battery
 ```
 
 ## Node Usage
+Get information about the battery by injecting a random message into this node:
+
+![Flow](https://raw.githubusercontent.com/bartbutenaers/node-red-contrib-battery/master/images/battery_flow.png)
 
 The `msg.payload` of the output message contains a lot of data about the battery:
 + **hasbattery**: indicates presence of battery.
