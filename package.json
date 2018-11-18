@@ -3,6 +3,7 @@
     "version"      : "1.0.0",
     "description"  : "A Node Red node to get information about the battery",
     "dependencies": {
+        "systeminformation": ">=3.48.4"
     },
     "author": {
         "name": "Bart Butenaers"
